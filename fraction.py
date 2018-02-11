@@ -8,7 +8,7 @@ def get_fraction(r, max_denom=128.0):
     """
     Return the nearest fraction for r.
 
-    The maximum demoninator can be controlled via max_denom
+    The maximum denominator can be controlled via max_denom
     """
 
     rat = r - floor(r)
