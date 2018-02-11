@@ -9,3 +9,5 @@ kind of inch fraction that might be.
 
 There might be better algorithms for findings rational numbers, for example read
 [this](https://stackoverflow.com/questions/4385580/finding-the-closest-integer-fraction-to-a-given-random-real) thread.
+
+P.S. I know there is the python fraction module ;)
