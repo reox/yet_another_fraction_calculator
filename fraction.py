@@ -28,11 +28,11 @@ def get_fraction(r, max_denom=128.0):
 def main():
     p = ArgumentParser()
 
-    p.add_argument("rational", nargs="+", help="Return the nearest fraction for the rational number")
+    p.add_argument("real", nargs="+", help="Return the nearest fraction for the real number")
 
     args = p.parse_args()
 
-    for r in args.rational:
+    for r in args.real:
         r = float(r)
         w, f1, f2 = get_fraction(r)
 
